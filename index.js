@@ -28,8 +28,10 @@ const services = http.createServer((request, response) => {
 				response.writeHead(200);
 				response.end('Deploy Done.');
 			}
-
 		});
+	} else {
+		response.writeHead(200);
+		response.end('It\'s Work!');
 	}
 });
 
