@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "shell.js": "^1.0.5",
+    "shelljs": "^1.0.5",
     "yargs": "^7.0.1"
   }
 }
